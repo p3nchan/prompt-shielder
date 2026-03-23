@@ -1,0 +1,9 @@
+{
+  "monitored_files": [
+    "CLAUDE.md",
+    ".env",
+    "config.yaml",
+    "system-prompt.md",
+    "agents/worker-instructions.md"
+  ]
+}
