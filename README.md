@@ -148,7 +148,7 @@ The two complement each other — prompt-shielder fills the "behavioral integrit
 
 ## Background
 
-This tool was extracted from [OpenClaw](https://github.com/nicepkg/openclaw)'s security practice. We run multiple AI agents (Claude Code, Codex CLI) whose behavior is defined by markdown and JSON config files. Config tampering is a real risk when agents have file-write access and process external input.
+This tool was extracted from [OpenClaw](https://github.com/openclaw/openclaw)'s security practice. We run multiple AI agents (Claude Code, Codex CLI) whose behavior is defined by markdown and JSON config files. Config tampering is a real risk when agents have file-write access and process external input.
 
 After running this integrity monitor in production for several months, we extracted and generalized it for any AI agent setup.
 
